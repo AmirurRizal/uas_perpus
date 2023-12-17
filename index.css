@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    box-sizing: border-box;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px; 
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    background: hsl(207, 86%, 81%);
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+#pesan {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ff0000;
+}
+
+.message-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
